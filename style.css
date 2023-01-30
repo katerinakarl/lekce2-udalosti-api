@@ -109,6 +109,10 @@ li {
 	border-color: orange;
 }
 
+.mujstyl {
+	border: solid black 20px;
+}
+
 .zeleny {
 	background-color: greenyellow;
 	color: black;
@@ -120,4 +124,8 @@ li {
 	background-color: cyan;
 	color: black;
 	border-color: blue;
+}
+
+.stylodstavce {
+	color: red;
 }

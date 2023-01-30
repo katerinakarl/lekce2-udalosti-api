@@ -9,17 +9,33 @@
 </head>
 <body>
 
-	<h1>Změna tříd, události</h1>
+	<button onclick="zmenBarvuOdstavce()">
+		Červené po kliknutí
+	</button>
 
-	<div class="ctverecek zluty"></div>
+	<button onclick="zvetsitPismo()">
+		Zvětšit písmo
+	</button>
 
-	<div class="ctverecek zeleny"></div>
+	<p id="odstavec"> 
+		Tohle je odstavec, které bude měnit barvu po stisknutí tlačítka. Zatím nefunguje, ale určitě se to zlepší. Do čtvrtka.  
+	</div>
+	</p>
 
-	<img class="obrazek" src="obrazky/kocka.jpg">
 
-	<button class="tlacitko">Čudlajs</button>
+	<button onclick="zapniHudbu(event)" class="tlacitko">Play</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<button onclick="vypniHudbu(event)" class="tlacitko">Pause</button>
+
+	<button onclick="hrajOdZacatku(event)" class="tlacitko">Reset</button>
+
+	<button onclick="mute(event)" class="tlacitko">Mute</button>
+
+	<button onclick="pridejHlasitost(event)" class="tlacitko">Volume up</button>
+	
+	<audio class="prehravac" src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+	<script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>
