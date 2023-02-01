@@ -24,23 +24,14 @@ function vypniHudbu(){
 prehravac.pause();
 }
 
-function hrajOdZacatk(){
+function hrajOdZacatku(){
 prehravac.currentTime = 0;
 }
 
-function mute (){
+function mute(){
 prehravac.mute();
 }
-  
     
 function pridejHlasitost (){
 prehravac.volume(0.5);
 }
-
-let tlacitko = document.querySelector(".play");
-.addEventListener "click", zavolejUdalost(event)
-
-function zavolejUdalost (udalost) {
-    let prvek = udalost.target;
-    prvektext.log(udalost)
-    console.log(udalost)
