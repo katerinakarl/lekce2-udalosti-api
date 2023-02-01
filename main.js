@@ -8,11 +8,7 @@ odstavec.classList.toggle("stylodstavce");
 
 // velikost písma odstavce//
 
-
-
 // přehrávač//
-
-
 let prehravac;
 prehravac = document.querySelector (".prehravac");
 
@@ -29,9 +25,9 @@ prehravac.currentTime = 0;
 }
 
 function mute(){
-prehravac.mute();
+prehravac.volume(0);
 }
     
-function pridejHlasitost (){
+function pridejHlasitost(){
 prehravac.volume(0.5);
 }
