@@ -54,20 +54,20 @@ font-family: "Montserrat", serif;
 	font-weight: bold;
 	color: #fff;
 	text-align: center;
-	text-shadow: 1px 1px 0px #c5376d;
+	text-shadow: 1px 1px 0px #grey;
 	padding: 10px 30px;
 	position: relative;
 	cursor: pointer;
 	border: none;
-	background: #f78db5;
-	background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
+	background: rgb(13, 27, 13);
+	background-image: linear-gradient(bottom, #404f3d 0%, #grey 100%);
 	border-radius: 5px;
 	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
 }
 
 .tlacitko:active {
 	top: 3px;
-	box-shadow: 0px 2px 0px 0px #c5376d, 0px 5px 3px #999;
+	box-shadow: 0px 2px 0px 0px #988c2a, 0px 5px 3px #999;
 }
 
 .obrazek {
