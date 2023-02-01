@@ -7,6 +7,11 @@ odstavec.classList.toggle("stylodstavce");
 }
 
 // velikost písma odstavce//
+function zmenVelikostOdstavce() {
+let odstavec2 =document.querySelector("#odstavec2");
+let fontSize=window.getComputedStyle(odstavec2).getPropertyValue("font-size")
+odstavec2.style.fontSize=parseInt(fontSize)+1+'px'
+  }
 
 // přehrávač//
 let prehravac;
