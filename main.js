@@ -21,13 +21,17 @@ prehravac.pause();
 }
 
 function hrajOdZacatku(){
-prehravac.currentTime = 0;
+prehravac.currentTime=0;
 }
 
 function mute(){
-prehravac.volume(0);
+prehravac.volume = 0;
 }
     
-function pridejHlasitost(){
-prehravac.volume(0.5);
+function upravHlasitost0(){
+prehravac.volume = 0.05;
+}
+
+function upravHlasitost1(){
+prehravac.volume = 1;
 }
